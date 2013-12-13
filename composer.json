@@ -1,0 +1,23 @@
+{
+    "name": "satiri/widgetized",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ahmad Satiri",
+            "email": "ahmad@rumah.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Satiri\\Widgetized\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
